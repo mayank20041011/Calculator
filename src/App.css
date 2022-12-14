@@ -1,0 +1,96 @@
+
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  text-decoration-color: rgb(255, 65, 99);
+}
+
+.main{
+  background-color: #3f4450;
+  height: 75vh;
+ 
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+}
+
+.result{
+  height: 30%;
+  width: 90%;
+  font-size: calc(10px + 5vmin);
+  font-weight: bolder;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.input{
+  font-size: calc(10px + 4vmin);
+  font-weight: 200;
+  color: rgb(163, 163, 163);
+}
+
+.button{
+
+  height: 70%;
+  width: 100%;
+}
+.btn{
+  border-color: #e7e7e7;
+  color: black;
+  background-color: #ddd;
+  margin: 0.1vw;
+  transition: 0.3s;
+  height: 10vh;
+  outline: none;
+  border: solid 0.1vw rgb(32, 32, 32);
+  width: 14.5vw;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+}
+.top{
+  width: 8.5vw;
+}
+.btn:hover {
+  background-color: rgb(255, 65, 99);
+  color: white;
+
+  border: solid 0.2vw rgb(32, 32, 32);
+}
+#btnEq:hover {
+  background-color: rgb(250, 40, 78);
+  border: solid 0.2vw rgb(32, 32, 32);
+}
+
+.btnSp {
+  background-color: rgb(240, 65, 99);
+  color: white;
+
+}
